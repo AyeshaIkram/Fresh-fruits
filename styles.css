@@ -1,0 +1,205 @@
+body{
+  width: 100%;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+  }
+  header{
+    display: flex;
+    font-size: 150%;
+    color: rgb(19, 14, 14);
+    justify-content: center;
+    
+    height: 50px;
+    width: 30%;
+    margin-left: 35%;
+    align-items: center;
+  }
+  #input{
+    
+    display: flex;
+    margin-left: 42%;
+    height: 10%x;
+    flex-wrap: wrap;
+  }
+  
+  #input input{
+    border: 1px solid #5c5959;
+    border-radius: 10px;
+    width: 15em;
+    margin-top: 2%;
+    
+    height: 3em;
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+  }
+  #bill {
+    justify-content: center;
+    width: 100%;
+   
+    
+    color: rgb(9, 9, 179);
+    display: flex;
+  
+    font-weight: 900;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding: 40px 0;
+    margin-left: 3%;
+   
+    background-repeat: no-repeat;
+    
+  }
+
+  #bill input{
+    width: 10%;
+    border: none;
+    color: #ff0707;
+    font-size: 20px;
+    
+    position: relative;
+    left: 3px;
+    font-family: auto;
+    background-color: inherit;
+  }
+  .price{
+    background-color: #0025faa8;
+    color: #e69b06;
+    padding: 10px 0;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  .product img{
+    height: 90px;
+    width: 70%;
+  }
+  .product{
+    display:flex;
+    width: fit-content;
+    
+  
+  }
+  .product figure{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px dotted rgb(0, 64, 75);
+  padding-bottom: 20px;
+color: rgb(226, 236, 226);
+  margin: 30px;
+  font-weight: 100;
+  }
+  .product img{ height:60% ;}
+  #shop{
+    display: flex;
+    justify-content: center;
+    color: black;
+   background-image: url(http://www.hdwallpaperspulse.com/wp-content/uploads/2018/08/03/hd-Fruits-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  #shop figcaption{
+color: black;
+ font-size: 150%;
+font-weight: 700;
+font-style: oblique;
+font-family: monospace; }
+  
+  #shop p{
+  margin:0;
+  
+  }
+  
+  /* for increasing and decreasing shopping amount */
+  div.buy {
+    display: flex;
+    
+    justify-content: center;
+    margin: 0;
+    height: 20px;
+    z-index: 1;
+    border: none;
+    text-align: center;
+    border-radius: 0px;
+  }
+  
+  .buy  input{ color: white;
+  font-family: fantasy;
+  border: none;
+}
+
+  .buy button {
+    display: inline-block;
+    margin: 0px;
+    width: 30px;
+
+    text-align: center;
+    border: none;
+    color: rgb(10, 10, 10);
+    font-size: 1em;
+    height: 23px;
+    padding: 0px;
+    background-color: rgb(3, 250, 188);
+    outline: none;
+    
+  }
+  
+  .buy button:hover {
+    cursor: pointer;
+    color: rgb(9, 250, 250);
+    background-color: black;
+    
+  }
+  
+  div.buy .decrease {
+    margin-right: 0px;
+    border: none;
+    
+  }
+  
+  div.buy .increase {
+    margin-left: 0px;
+    border: none;
+    
+  }
+  
+  .buy input {
+    text-align: center;
+    border: none;
+  
+    margin: 0px;
+    padding-left: 15px;
+    background-color: teal;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+   
+    
+  
+  }
+
+span{
+  color: #ff0707;
+
+  font-size: larger;
+  font-family: fantasy;
+}
+  
+#alert{
+ margin: 40%;
+ position: relative;
+ top: 10px;
+}
+ 
